@@ -3,8 +3,8 @@ export function numerosPar(numeros){
   
 }
 
-//  export function ordemAlfabetica(){
+ export function ordemAlfabetica(){
     
-//   const ordem = lista.sort()
-//   return ordem
-//  }
+  const ordem = lista.sort()
+  return ordem
+ }

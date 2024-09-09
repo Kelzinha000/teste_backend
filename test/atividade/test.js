@@ -6,7 +6,7 @@ test("Verifica número par", () => {
   expect(numerosPar([1, 2, 3,4,5,6,7,8,9,10])).toEqual(resultado);
 });
 
-// test("Ordem Alfabética", ()=>{
-//     const listaEsperada = ["Maria", "Raquel", "Deyse"]
-//     expect(ordemAlfabetica(["Deyse", "Maria", "Raquel"])).toEqual(listaEsperada)
-// })
+test("Ordem Alfabética", ()=>{
+    const listaEsperada = ["Maria", "Raquel", "Deyse"]
+    expect(ordemAlfabetica(["Deyse", "Maria", "Raquel"])).toEqual(listaEsperada)
+})
